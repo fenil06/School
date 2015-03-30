@@ -23,7 +23,7 @@ public class wordcount{
         int line_count = 0;
         int word_count = 0;
         int vowels_count = 0;
-        int alphanumeric_charcters = 1;
+        int alphanumeric_charcters = 0;
         int sentence_count = 0;
         int punctuation_count = 0;
 
