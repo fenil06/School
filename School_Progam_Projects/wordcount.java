@@ -7,7 +7,20 @@
 ///Submitted: 01/021/2015                                   ///
 ///////////////////////////////////////////////////////////////
 
-/* The purpose of this program is to count the number of lines, words, vowels, characters, sentences and punctuation marks in a text file that is inputted/defined by the user. The algorithm used in thisprogram is a simple while loop counter. The while loop first checks if there is a line to be read in the file inputted. Second, we define a regex pattern that we will match in the file. Third, if the pattern matches any character, words or symbols in the file it increase the corresponding counter by 1. The loop continues until there are no more lines to be read in the file. To use this program the user must enter the text file location when prompted by the scanner. If the file is not valid they will be prompted with "File does not exists error". After the file has been inputted, the algorithm consisting of the while loop will run and produce an output indiciating the amount of lines, words, vowels, characters, sentences and punctuation marks and also produce an output.txt file with the count information. Only one class was used in this program consisting of the main method. The class first create a output text file and then prompts the users to enter name of the text file to be examined. The algorithm uses regex pattern matching and a while loop counter to count the number of lines, words, vowels, characters, sentences and punctuations in the text file. It then writes the values to the output.txt file and saves it in the directory of the source file. Afterwards, it prints out the same result in the interactions pane.
+/* The purpose of this program is to count the number of lines, words, vowels, characters, sentences and punctuation
+marks in a text file that is inputted/defined by the user. The algorithm used in this
+program is a simple while loop counter. The while loop first checks if there is a line to be read in the file inputted.
+Second, we define a regex pattern that we will match in the file. Third, if the pattern matches any character, words or
+symbols in the file it increase the corresponding counter by 1. The loop continues until there are no more lines to be
+read in the file. To use this program the user must enter the text file location when prompted by the scanner.
+If the file is not valid they will be prompted with "File does not exists error". After the file has been inputted,
+the algorithm consisting of the while loop will run and produce an output indicating the amount of lines, words,
+vowels, characters, sentences and punctuation marks and also produce an output.txt file with the count information.
+Only one class was used in this program consisting of the main method. The class first create a output text file and
+then prompts the users to enter name of the text file to be examined. The algorithm uses regex pattern matching and a
+while loop counter to count the number of lines, words, vowels, characters, sentences and punctuations in the text
+file. It then writes the values to the output.txt file and saves it in the directory of the source file. Afterwards,
+it prints out the same result in the interactions pane.
 */
 
 import java.util.Scanner;
@@ -39,7 +52,8 @@ public class wordcount{
 
         try {
 
-            //Uses the print writer class to output the count information to a file called output.txt. The default save location is directory of the source file.
+            //Uses the print writer class to output the count information to a file called output.txt. The default save
+            //location is directory of the source file.
             PrintWriter output = new PrintWriter("output.txt", "UTF-8");
 
             try {
