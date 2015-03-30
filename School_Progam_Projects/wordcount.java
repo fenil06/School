@@ -19,7 +19,7 @@ public class wordcount{
     //Main method that counts the lines, words, vowels, characters, sentences and punctuations in the text file.
     public static void main (String [] args){
 
-        //Initiazlies the variables to be used in the program to count line, word, vowels, characters, sentences and punctuation marks and sets them to 0.
+        //Initializes the variables to be used in the program to count line, word, vowels, characters, sentences and punctuation marks and sets them to 0.
         int line_count = 0;
         int word_count = 0;
         int vowels_count = 0;
